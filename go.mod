@@ -1,4 +1,4 @@
-module mugomes/mgprotect
+module github.com/mugomes/mgprotect
 
 go 1.25.5
 
