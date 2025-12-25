@@ -7,7 +7,7 @@ MGProtect é uma biblioteca em Go para proteção de software via serial e valid
 - Integridade e assinatura digital
 - Máquina específica (via hash do hardware)
 
-**Importante:** Para usar MGProtect corretamente, você precisa gerar previamente a chave pública, a chave interna e o serial utilizando a ferramenta [mggenerator](https://www.mugomes.com.br/p/mgprotectedgenerator.html). Esta ferramenta garante que os dados de licença sejam assinados e criptografados de forma compatível com MGProtect.
+**Importante:** Para usar MGProtect corretamente, você precisa gerar previamente a chave pública, a chave interna e o serial utilizando a ferramenta [MGProtectedGenerator](https://www.mugomes.com.br/p/mgprotectedgenerator.html). Esta ferramenta garante que os dados de licença sejam assinados e criptografados de forma compatível com MGProtect.
 
 ## Funcionalidades Principais
 
@@ -88,7 +88,7 @@ if mgp.LoadAndValidate(licensePath) {
 }
 ```
 
-A biblioteca pode ser usada em projetos comerciais ou pessoais, mas o uso seguro requer a geração correta das chaves e serial via [mggenerator](https://www.mugomes.com.br/p/mgprotectedgenerator.html).
+A biblioteca pode ser usada em projetos comerciais ou pessoais, mas o uso seguro requer a geração correta das chaves e serial via [MGProtectedGenerator](https://www.mugomes.com.br/p/mgprotectedgenerator.html).
 
 ## Information
 
