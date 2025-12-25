@@ -12,7 +12,7 @@ import (
 	"crypto/sha256"
 	"encoding/base64"
 	"encoding/json"
-	"mugomes/mgprotect/machine"
+	"github.com/mugomes/mgprotect/machine"
 	"os"
 	"strings"
 )
